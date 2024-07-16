@@ -3,6 +3,8 @@
 , ...
 }: {
   imports = [
+    ./keys.nix
+    ./sets.nix
     ./plug/colorscheme/colorscheme.nix
     ./plug/telescope/telescope.nix
 ];
