@@ -5,8 +5,7 @@
         settings = {
             updateInInsert = false;
        };
-    };
-    sources = {
+       sources = {
         code_actions = {
             gomodifytags.enable = true;
             impl.enable = true;
@@ -15,6 +14,8 @@
             goimports.enable = true;
             gofumpt = true;
         };
+    };
+
     };
     keymaps = [
     {
