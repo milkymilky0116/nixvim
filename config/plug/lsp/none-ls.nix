@@ -12,7 +12,6 @@
         };
         formatting = {
             goimports.enable = true;
-            gofumpt = true;
         };
     };
 
