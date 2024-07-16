@@ -12,6 +12,7 @@
     ./plug/treesitter/treesitter-textobjects.nix
     ./plug/treesitter/treesitter-context.nix
     ./plug/lsp/lsp.nix
+    ./plug/lsp/none-ls.nix
 ];
   options = {
     theme = lib.mkOption {
