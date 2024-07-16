@@ -17,7 +17,7 @@ in
 
   plugins.treesitter = {
     enable = true;
-    indent = true;
+    indent.enable = true;
     folding = true;
     languageRegister.nu = "nu";
     languageRegister.liq = "liquidsoap";
@@ -28,12 +28,7 @@ in
       ]
       ++ pkgs.vimPlugins.nvim-treesitter.allGrammars;
   };
-
-  extraFiles = {
-    "/queries/nu/highlights.scm" = builtins.readFile "${nu-grammar}/queries/nu/highlights.scm";
-    "/queries/nu/injections.scm" = builtins.readFile "${nu-grammar}/queries/nu/injections.scm";
-  };
-  extraConfigLua = ''
+    extraConfigLua = ''
     local parser_config = require("nvim-treesitter.parsers").get_parser_configs()
 
     parser_config.liquidsoap = {
