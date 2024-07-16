@@ -5,6 +5,7 @@
   imports = [
     ./keys.nix
     ./sets.nix
+    ./highlights.nix
     ./plug/colorscheme/colorscheme.nix
     ./plug/telescope/telescope.nix
     ./plug/neo-tree/neo-tree.nix
