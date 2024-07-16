@@ -17,12 +17,19 @@
       };
     };
     keymaps = {
+      "<leader>gf" = {
+        action = "git_files";
+        options = {
+          desc = "Find git project files";
+        };
+      };
       "<leader>ff" = {
         action = "find_files";
         options = {
           desc = "Find project files";
         };
       };
+
       "<leader>uC" = {
         action = "colorscheme";
         options = {
