@@ -16,7 +16,7 @@
     ./plug/lsp/none-ls.nix
     ./plug/cmp/cmp.nix
     ./plug/snippets/luasnip.nix
-    ./plug/whick-key/which-key.nix
+    ./plug/which-key/which-key.nix
 ];
   options = {
     theme = lib.mkOption {
