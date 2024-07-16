@@ -4,6 +4,7 @@
 }: {
   imports = [
     ./plug/colorscheme/colorscheme.nix
+    ./plug/telescope/telescope.nix
 ];
   options = {
     theme = lib.mkOption {
