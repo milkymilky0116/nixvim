@@ -41,8 +41,6 @@
       # Decrease updatetime
       updatetime = 50; # faster completion (4000ms default)
 
-      # Set completeopt to have a better completion experience
-      completeopt = [ "menuone" "noselect" "noinsert" ]; # mostly just for cmp
 
       # Enable persistent undo history
       swapfile = false;
@@ -82,8 +80,6 @@
       # More space in the neovim command line for displaying messages
       cmdheight = 0;
 
-      # We don't need to see things like INSERT anymore
-      showmode = false;
     };
   };
 }
