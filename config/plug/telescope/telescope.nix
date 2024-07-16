@@ -1,7 +1,7 @@
 {
     plugins.telescope = {
         enable = true;
-        extension = {
+        extensions = {
             file-browser = {
                 enable = true;
             };
