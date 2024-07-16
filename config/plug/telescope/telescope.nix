@@ -27,7 +27,8 @@
         };
       };
     };
-    extraConfigLua = ''
+  };
+  extraConfigLua = ''
     require("telescope").setup{
       pickers = {
         colorscheme = {
@@ -36,5 +37,4 @@
       }
     }
   '';
-  };
 }
