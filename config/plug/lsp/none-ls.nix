@@ -9,7 +9,7 @@
     sources = {
         code_actions = {
             gomodifytags.enable = true;
-            impl.enable = true
+            impl.enable = true;
         };
         formatting = {
             goimports.enable = true;
