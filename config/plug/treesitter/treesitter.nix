@@ -21,11 +21,6 @@ in
     languageRegister.nu = "nu";
     languageRegister.liq = "liquidsoap";
     nixvimInjections = true;
-    settings = {
-        indent = {
-            enable = true;
-        };
-    };
     grammarPackages =
       [
         nu-grammar
