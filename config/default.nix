@@ -20,6 +20,7 @@
     ./plug/which-key/which-key.nix
     ./plug/ui/noice.nix
     ./plug/ui/bufferline.nix
+    ./plug/ui/precognition.nix
     ./plug/utils/nvim-autopairs.nix
 ];
   options = {
