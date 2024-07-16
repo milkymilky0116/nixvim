@@ -5,9 +5,6 @@
       file-browser = {
         enable = true;
       };
-      fzf-native = {
-        enable = true;
-      };
     };
     settings = {
       defaults = {
@@ -20,10 +17,16 @@
       };
     };
     keymaps = {
-      "<leader><space>" = {
+      "<leader>ff" = {
         action = "find_files";
         options = {
           desc = "Find project files";
+        };
+      };
+      "<leader>uC" = {
+        action = "colorscheme";
+        options = {
+            desc = "Colorscheme preview";
         };
       };
     };
