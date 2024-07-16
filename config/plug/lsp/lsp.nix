@@ -9,7 +9,7 @@
         lua-ls = { enable = true; };
         nil-ls = { enable = true; };
         gopls = { enable = true; };
-        rust-analyzer = { enable = true };
+        rust-analyzer = { enable = true; };
         tsserver = { enable = false; };
         yamlls = {
           enable = true;
