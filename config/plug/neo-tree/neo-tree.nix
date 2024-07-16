@@ -35,7 +35,7 @@
     };
   };
   extraConfigLua = ''
-  require('neo-tree').setup(){
+  require('neo-tree.nvim').setup(){
     filesystem = {
       filtered_items = {
         hide_hidden = false,
