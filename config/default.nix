@@ -7,6 +7,7 @@
     ./sets.nix
     ./plug/colorscheme/colorscheme.nix
     ./plug/telescope/telescope.nix
+    ./plug/neo-tree/neo-tree.nix
 ];
   options = {
     theme = lib.mkOption {
