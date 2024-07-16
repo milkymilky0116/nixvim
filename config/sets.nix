@@ -21,6 +21,7 @@
       encoding = "utf-8";
       fileencoding = "utf-8";
       cmdheight = 0;
+      timeoutlen = 10;
       showmode = false;
     };
   };
