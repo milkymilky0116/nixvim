@@ -19,6 +19,7 @@
     ./plug/snippets/luasnip.nix
     ./plug/which-key/which-key.nix
     ./plug/ui/noice.nix
+    ./plug/utils/nvim-autopairs.nix
 ];
   options = {
     theme = lib.mkOption {
