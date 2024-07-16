@@ -23,6 +23,7 @@
     ./plug/ui/bufferline.nix
     ./plug/ui/precognition.nix
     ./plug/utils/nvim-autopairs.nix
+    ./plug/rust/rustaceanvim.nix
 ];
   options = {
     theme = lib.mkOption {
