@@ -17,11 +17,15 @@ in
 
   plugins.treesitter = {
     enable = true;
-    indent.enable = true;
     folding = true;
     languageRegister.nu = "nu";
     languageRegister.liq = "liquidsoap";
     nixvimInjections = true;
+    settings = {
+        indent = {
+            enable = true;
+        };
+    };
     grammarPackages =
       [
         nu-grammar
