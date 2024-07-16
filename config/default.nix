@@ -14,6 +14,7 @@
     ./plug/lsp/lsp.nix
     ./plug/lsp/none-ls.nix
     ./plug/cmp/cmp.nix
+    ./plug/snippets/luasnip.nix
 ];
   options = {
     theme = lib.mkOption {
