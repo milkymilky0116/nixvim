@@ -17,7 +17,7 @@ in
 
   plugins.treesitter = {
     enable = true;
-    folding = true;
+    folding = false;
     languageRegister.nu = "nu";
     languageRegister.liq = "liquidsoap";
     nixvimInjections = true;
