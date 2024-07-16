@@ -17,13 +17,13 @@
       };
     };
     keymaps = {
-      "<leader>gf" = {
+      "<leader>ff" = {
         action = "git_files";
         options = {
           desc = "Find git project files";
         };
       };
-      "<leader>ff" = {
+      "<leader>gf" = {
         action = "find_files";
         options = {
           desc = "Find project files";
