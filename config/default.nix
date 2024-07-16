@@ -9,6 +9,9 @@
     ./plug/telescope/telescope.nix
     ./plug/neo-tree/neo-tree.nix
     ./plug/treesitter/treesitter.nix
+    ./plug/treesitter/treesitter-textobjects.nix
+    ./plug/treesitter/treesitter-context.nix
+    ./plug/lsp/lsp.nix
 ];
   options = {
     theme = lib.mkOption {
