@@ -26,6 +26,7 @@
           desc = "Find project files";
         };
       };
+    };
     extraConfigLua = ''
     require("telescope").setup{
       pickers = {
