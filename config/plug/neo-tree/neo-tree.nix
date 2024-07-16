@@ -5,7 +5,6 @@
     addBlankLineAtTop = false;
 
     filesystem = {
-      hide_hidden = false;
       bindToCwd = false;
       followCurrentFile = {
         enabled = true;
