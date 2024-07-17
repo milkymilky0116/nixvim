@@ -16,6 +16,7 @@
     ./plug/lsp/none-ls.nix
     ./plug/lsp/lsp-kind.nix
     ./plug/lsp/lsp-saga.nix
+    ./plug/tmux/tmux-navigator.nix
     ./plug/cmp/cmp.nix
     ./plug/snippets/luasnip.nix
     ./plug/which-key/which-key.nix
