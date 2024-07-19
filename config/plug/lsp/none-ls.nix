@@ -11,6 +11,7 @@
             impl.enable = true;
         };
         formatting = {
+            nixpkgs_fmt.enable = true;
             goimports.enable = true;
         };
     };
