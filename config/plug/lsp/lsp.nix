@@ -9,7 +9,7 @@
         nil-ls = { enable = true; };
         gopls = { enable = true; };
         rust-analyzer = { enable = true; };
-        tsserver = { enable = true; };
+        eslint = { enable = true; };
         yamlls = {
           enable = true;
         };
