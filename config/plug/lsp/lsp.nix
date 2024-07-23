@@ -10,7 +10,7 @@
         nil-ls = { enable = true; };
         gopls = { enable = true; };
         rust-analyzer = { enable = true; };
-        tsserver = { enable = false; };
+        tsserver = { enable = true; };
         yamlls = {
           enable = true;
         };
