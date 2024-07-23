@@ -10,6 +10,9 @@
         gopls = { enable = true; };
         rust-analyzer = { enable = true; };
         eslint = { enable = true; };
+        tsserver = {
+          enable = true;
+        };
         yamlls = {
           enable = true;
         };
