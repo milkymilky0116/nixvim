@@ -13,6 +13,7 @@
       formatting = {
         nixpkgs_fmt.enable = true;
         goimports.enable = true;
+        prettier.enable = true;
       };
     };
 
