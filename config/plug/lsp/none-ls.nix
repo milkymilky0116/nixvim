@@ -8,7 +8,6 @@
     sources = {
       code_actions = {
         gomodifytags.enable = true;
-        tsserver.enable = true;
         impl.enable = true;
       };
       formatting = {
